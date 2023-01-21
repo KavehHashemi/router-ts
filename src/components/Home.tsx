@@ -1,7 +1,7 @@
-
+import Card from "@mui/material/Card";
 const Home = () => {
     return (
-        <div>Home</div>
+        <Card>Home</Card>
     )
 }
 

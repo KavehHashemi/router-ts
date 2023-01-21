@@ -1,23 +1,21 @@
 .container {
-  background-color: #fff;
   display: flex;
+  flex-direction: row !important;
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  padding: 0.5rem 1rem;
+  padding: 1rem;
   gap: 2.5rem;
-  font-size: calc(0.5rem + 2vmin);
+  background-color: #212121;
+  /* font-size: calc(0.5rem + 2vmin); */
 }
 .container > div > a {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   text-decoration: none;
+  display: flex;
   font-weight: 500;
-  color: #282c34;
-}
-.container > div:hover {
-  color: #747985;
+  color: #c5c5c5;
 }
 .container > div:active {
-  background-color: aliceblue;
-  transform: scale(0.9);
+  transform: scale(0.98);
 }
