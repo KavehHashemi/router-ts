@@ -1,4 +1,7 @@
-.container {
+:root {
+  --height: 1rem;
+}
+.navbar-container {
   display: flex;
   flex-direction: row !important;
   align-items: center;
@@ -7,15 +10,24 @@
   padding: 1rem;
   gap: 2.5rem;
   background-color: #212121;
-  /* font-size: calc(0.5rem + 2vmin); */
+  height: var(--height);
 }
-.container > div > a {
+.navbar-container > div {
+  padding-block: 0.5rem;
+}
+.navbar-container > div > a {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   text-decoration: none;
   display: flex;
   font-weight: 500;
   color: #c5c5c5;
 }
-.container > div:active {
+.navbar-container > div:active {
   transform: scale(0.98);
+}
+.border-inactive {
+  border-bottom: 2px solid #212121;
+}
+.border-active {
+  border-bottom: 2px solid lightskyblue;
 }

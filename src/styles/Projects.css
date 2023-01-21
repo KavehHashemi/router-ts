@@ -1,0 +1,12 @@
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+.projects-card {
+  width: 15rem;
+  height: auto;
+}
